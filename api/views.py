@@ -27,20 +27,13 @@ class PropertyListView(viewsets.ModelViewSet):
         queryset = Property.objects.all()
         '''
         queryset = Property.objects.prefetch_related(Prefetch(
-        'status',
-        queryset=StatusHistory.objects.filter(status='3')))
+        'status'))
         '''
 
         if self.request.GET.get('year'):
             queryset = queryset.filter(year=self.request.GET.get('year'))
         if self.request.GET.get('city'):
             queryset = queryset.filter(city=self.request.GET.get('city'))
-            '''
-        if self.request.GET.get('status'):
-            stat = int(self.request.GET.get('status'))
-            if stat > 2:
-                queryset = queryset.filter(statushistory__status=stat)
-                '''
         else:
             queryset = queryset.order_by('-year')
         return queryset
