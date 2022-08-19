@@ -27,6 +27,9 @@ registrado en la base de datos.
 ● Los “Me gusta” son de usuarios registrados, y debe quedar registrado en la base de
 datos el histórico de “me gusta” de cada usuario y a cuáles inmuebles.
 
+[Modelo para modulo "Me gusta"](https://github.com/raulespecialist/habi/wiki/Modelo-de-negocio-para-el-modulo-de-%22Me-gusta%22)
+
+
 # Implementacion
 git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
 #### Clonar
