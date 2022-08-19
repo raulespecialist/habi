@@ -20,6 +20,7 @@ Estado, Precio de venta y Descripción.
 
 ### Servicio de “Me gusta” 
 *Features*
+
 ● Los usuarios pueden darle me gusta a un inmueble en específico y esto debe quedar
 registrado en la base de datos.
 
