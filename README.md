@@ -10,8 +10,11 @@ de tener un ranking interno de los inmuebles más llamativos.
 ### Servicio de consulta
 ● Los usuarios pueden consultar los inmuebles con los estados: “pre_venta”, “en_venta” y
 “vendido” (los inmuebles con estados distintos nunca deben ser visibles por el usuario).
+
 ● Los usuarios pueden filtrar estos inmuebles por: Año de construcción, Ciudad, Estado.
+
 ● Los usuarios pueden aplicar varios filtros en la misma consulta.
+
 ● Los usuarios pueden ver la siguiente información del inmueble: Dirección, Ciudad,
 Estado, Precio de venta y Descripción.
 
@@ -19,6 +22,7 @@ Estado, Precio de venta y Descripción.
 *Features*
 ● Los usuarios pueden darle me gusta a un inmueble en específico y esto debe quedar
 registrado en la base de datos.
+
 ● Los “Me gusta” son de usuarios registrados, y debe quedar registrado en la base de
 datos el histórico de “me gusta” de cada usuario y a cuáles inmuebles.
 
